@@ -31,7 +31,7 @@ namespace paolina {
    
   public: 
 
-    void Clear();
+    void ClearTopoEvent();
 
     TopoEvent& operator=(const TopoEvent& right);
    
@@ -47,7 +47,7 @@ namespace paolina {
     void SetID(int id) {fEventID = id;}
     int GetID() const {return fEventID;}
 
-    void Info(std::ostream& s) const;
+    void PInfo(std::ostream& s) const;
 
     ClassDef(TopoEvent,1);
   };

@@ -38,14 +38,14 @@ namespace paolina {
   TopoEvent::~TopoEvent()
   {
    
-    Clear();
+    ClearTopoEvent();
 
     delete fTracks;
     delete fVoxels;
     delete fBlobs;
   }
 
-  void TopoEvent::Clear()
+  void TopoEvent::ClearTopoEvent()
   {
     if (fVoxels) {
       fVoxels->Delete();
@@ -75,7 +75,7 @@ namespace paolina {
     fBlobs->AddLast(blb);
   }
   
-  void TopoEvent::Info(std::ostream& s) const
+  void TopoEvent::PInfo(std::ostream& s) const
   {
     
     s << std::endl; 
@@ -107,6 +107,6 @@ namespace paolina {
 } // end namespace paolina
 
 std::ostream& operator << (std::ostream& s, const paolina::TopoEvent& ev) {
-  ev.Info(s);
+  ev.PInfo(s);
   return s; 
 }

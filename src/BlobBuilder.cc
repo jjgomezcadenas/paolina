@@ -39,8 +39,8 @@ std::pair<paolina::Blob*, paolina::Blob*> BlobBuilder::MakeBlobs(paolina::Track*
   
   double energy1 = 0.;
   double energy2 = 0.;
-  double tmp1;
-  double tmp2;
+  //double tmp1;
+  //double tmp2;
 
   for (unsigned int i=0;i<mytrack->NVoxels();i++){
     vxl = mytrack->GetVoxel(i);
@@ -103,8 +103,8 @@ std::pair<paolina::Blob*, paolina::Blob*> BlobBuilder::MakeBlobs(const paolina::
   
   double energy1 = 0.;
   double energy2 = 0.;
-  double tmp1;
-  double tmp2;
+  //double tmp1;
+  //double tmp2;
 
   for (unsigned int i=0;i<mytrack->NVoxels();i++){
     vxl = mytrack->GetVoxel(i);
