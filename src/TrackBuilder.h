@@ -1,5 +1,5 @@
-#ifndef TRACKBUILDER_H
-#define TRACKBUILDER_H
+#ifndef PTRACKBUILDER_H
+#define PTRACKBUILDER_H
 
 #include <vector>
 

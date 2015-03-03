@@ -1,5 +1,5 @@
-#ifndef BLOB_H
-#define BLOB_H
+#ifndef PBLOB_H
+#define PBLOB_H
 
 #include "TObject.h"
 #include "Track.h"

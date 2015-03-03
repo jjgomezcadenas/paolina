@@ -1,5 +1,5 @@
-#ifndef VOXEL_H
-#define VOXEL_H
+#ifndef PVOXEL_H
+#define PVOXEL_H
 
 #include <TObject.h>
 #include <TVector3.h>

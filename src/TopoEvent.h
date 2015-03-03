@@ -1,5 +1,5 @@
-#ifndef TOPO_EVENT_H
-#define TOPO_EVENT_H
+#ifndef PTOPO_EVENT_H
+#define PTOPO_EVENT_H
 
 #include "Voxel.h"
 #include "Track.h"

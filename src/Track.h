@@ -1,5 +1,5 @@
-#ifndef TRACK_H
-#define TRACK_H
+#ifndef PTRACK_H
+#define PTRACK_H
 
 #include <TObject.h>
 #include <TVector3.h>

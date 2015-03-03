@@ -1,5 +1,5 @@
-#ifndef VOXELBUILDER_H
-#define VOXELBUILDER_H
+#ifndef PVOXELBUILDER_H
+#define PVOXELBUILDER_H
 
 #include "Voxel.h"
 

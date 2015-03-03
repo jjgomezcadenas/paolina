@@ -1,5 +1,5 @@
-#ifndef ROOT_WRITER_H
-#define ROOT_WRITER_H
+#ifndef PROOT_WRITER_H
+#define PROOT_WRITER_H
 
 #include <TFile.h>
 #include <TTree.h>
